@@ -11,8 +11,9 @@ It makes several changes to the default configuration, including..
 * Changes the default 24hr clock to 12hr
 * Changes terminal to xfce4-terminal
 * Changes default editor to vim
-* Executes picom on startup
-* Executes feh on startup to set the wallpaper (located in ~/wallpapers/bg.jpg)
+* Starts picom on startup
+* Starts xscreensaver on startup
+* Starts feh on startup to set the wallpaper (located in ~/wallpapers/bg.jpg)
 
 You'll probably have to change out mentions of my username ("dominik") for your own if you wish to run this yourself.
 This config is known to work with awesome 4.3 on FreeBSD - I cannot guarantee compatibility with any other version.
