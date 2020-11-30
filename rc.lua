@@ -560,3 +560,4 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- }}}
 awful.util.spawn_with_shell("feh --bg-scale /home/dominik/wallpapers/bg.jpg")
 awful.util.spawn_with_shell("picom")
+awful.util.spawn_with_shell("xscreensaver -no-splash &")
