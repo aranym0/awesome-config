@@ -15,10 +15,9 @@ It makes several changes to the default configuration, including..
 * Starts xscreensaver on startup
 * Starts feh on startup to set the wallpaper (located in ~/wallpapers/bg.jpg)
 
-You'll probably have to change out mentions of my username ("dominik") for your own if you wish to run this yourself.
-This config is known to work with awesome 4.3 on FreeBSD - I cannot guarantee compatibility with any other version.
-
-You'll also need these packages installed:
+You'll need to install these packages:
 ```
 dmenu xfce4-terminal picom vim feh xscreensaver
 ```
+
+This config is known to work with awesome 4.3 on FreeBSD - I cannot guarantee compatibility with any other version.
